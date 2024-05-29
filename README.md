@@ -15,3 +15,11 @@ A VPC, or Virtual Private Cloud, is a private network space in the cloud. It's l
 
 Subnets are subdivisions of a Virtual Private Cloud. Subnets can be classified as public or Private depends on their accessiblity to the internet.
 
+**What is private Subnets?**
+
+A private subnet is a subnet within your VPC that does not have a route to the Internet Gateway and thus cannot directly communicate with the internet. These subnets are typically used for internal resources that should not be directly accessible from the outside world.
+
+**What is public Subnets?**
+
+A public subnet is a subnet within your VPC that is configured to allow direct access to the internet. This is typically achieved by attaching an Internet Gateway (IGW) to the VPC and configuring the subnet's route table to direct traffic to the IGW.
+
